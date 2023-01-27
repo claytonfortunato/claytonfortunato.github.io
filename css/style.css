@@ -207,3 +207,60 @@
   background-color: rgba(255, 255, 255, 0.185);
   border-radius: 10px;
 }
+
+/* Projeto */
+.project {
+  height: 100vh;
+  text-align: center;
+  background-color: #ddd;
+}
+.project h1 {
+  text-align: center;
+}
+.project-container {
+  margin-top: 20px;
+  width: 31%;
+  max-height: 330px;
+}
+
+.project-container img {
+  width: 90%;
+}
+.project-container img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.6s;
+}
+.project p {
+  line-height: 2rem;
+}
+.project span {
+  color: #88abdb;
+}
+.project .btn-project {
+  margin-top: 20px;
+}
+
+.btn-project img {
+  height: 20px;
+  width: 20px;
+}
+
+.project .btn-project a {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.185);
+  font-size: 1.1rem;
+  padding: 14px 20px;
+  border: 1px solid #88abdb;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 350ms;
+  text-decoration: none;
+}
+.project .btn-project a:hover {
+  background-color: #88abdb;
+  color: white;
+}
+.project .btn-project a svg {
+  margin: 0rem 0.4rem;
+}
