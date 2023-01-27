@@ -33,6 +33,10 @@
   cursor: pointer;
 }
 
+.nav-item:hover {
+  border-bottom: 1px solid #fff;
+}
+
 /* Page home */
 .home {
   display: flex;
@@ -263,4 +267,19 @@
 }
 .project .btn-project a svg {
   margin: 0rem 0.4rem;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+
+  background-color: #88abdb;
+  font-weight: 500;
+}
+.footer span {
+  color: #ddd;
 }
