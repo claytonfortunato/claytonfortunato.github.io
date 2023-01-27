@@ -1,0 +1,32 @@
+.menu-btn i {
+  display: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 920px) {
+  .menu-btn i {
+    display: block;
+  }
+
+  .container-nav .nav-itens {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 8%;
+    right: -100%;
+    background-color: #88abdb;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+    width: 30%;
+  }
+
+  .container-nav .nav-itens.open {
+    right: 0;
+  }
+
+  .nav-item a {
+    font-size: 23px;
+  }
+}
