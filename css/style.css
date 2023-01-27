@@ -96,6 +96,20 @@
   max-width: 600px;
 }
 
+@media screen and (max-width: 893px) {
+  .home .image-right img {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .home .container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /* About */
 .about {
   background-color: #88abdb;
@@ -151,6 +165,25 @@
 .about .btn a:hover {
   background-color: #88abdb;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .container-about {
+    margin: 6px 0px;
+  }
+  .about .image {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    height: 100%;
+  }
 }
 
 /* Skill */
@@ -212,6 +245,24 @@
   border-radius: 10px;
 }
 
+@media screen and (max-width: 685px) {
+  .container-skill .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 0% 22%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container-skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 /* Projeto */
 .project {
   height: 100vh;
@@ -267,6 +318,12 @@
 }
 .project .btn-project a svg {
   margin: 0rem 0.4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .project-container {
+    width: 100%;
+  }
 }
 
 /* Footer */
