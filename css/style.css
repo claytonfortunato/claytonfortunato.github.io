@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Navbar */
 .container-nav {
   position: fixed;
   top: 0;
@@ -30,4 +31,73 @@
   font-weight: 500;
   transition: 350ms;
   cursor: pointer;
+}
+
+/* Page home */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  height: 100vh;
+  background-color: #ddd;
+}
+.home .container-home {
+  color: #88abdb;
+  font-size: 1.6rem;
+  width: 25%;
+}
+.home .container-home h1 {
+  color: #333;
+  font-weight: 500;
+}
+.home .container-home h2 {
+  font-weight: 500;
+}
+.home .container-home p {
+  color: #333;
+}
+
+.home .buttons-container {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.home .buttons-container a {
+  color: #333;
+  font-size: 1.1rem;
+  padding: 14px 20px;
+  border: 1px solid #88abdb;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 350ms;
+  text-decoration: none;
+}
+.home .buttons-container a:hover {
+  background-color: #88abdb;
+  color: white;
+}
+
+.container-home-button img {
+  color: #333;
+  margin-right: 0.1rem;
+  width: 30px;
+  height: 25px;
+}
+
+.image-right img {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* About */
+.about {
+  background-color: #88abdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
 }
