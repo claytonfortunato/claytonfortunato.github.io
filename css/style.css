@@ -50,7 +50,7 @@ a {
 }
 
 .nav-item:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #333;
 }
 
 /* Page home */
@@ -60,7 +60,7 @@ a {
   align-items: center;
   text-transform: uppercase;
   height: 100vh;
-  background-color: #ddd;
+  background-color: #333;
 }
 .home .container-home {
   color: #88abdb;
@@ -68,7 +68,7 @@ a {
   width: 25%;
 }
 .home .container-home h1 {
-  color: #333;
+  color: #fff;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -76,7 +76,7 @@ a {
   font-weight: 500;
 }
 .home .container-home p {
-  color: #333;
+  color: #fff;
   letter-spacing: 1px;
 }
 
@@ -88,7 +88,7 @@ a {
 }
 
 .home .buttons-container a {
-  color: #333;
+  color: #fff;
   font-size: 1.1rem;
   padding: 14px 20px;
   border: 1px solid #88abdb;
@@ -111,13 +111,18 @@ a {
 
 .image-right img {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
+  animation: float 8s ease-in-out infinite;
 }
 
-.image-right img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-  transition: 0.6s;
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 @media screen and (max-width: 893px) {
@@ -295,35 +300,44 @@ a {
 /* Projeto */
 .project {
   height: 100vh;
-  background-color: #ddd;
+  background-color: #333;
 }
 .project h1 {
   text-align: center;
+  color: #fff;
 }
 
 .container-cards {
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
 }
 
 .project-container img {
   width: 100%;
   max-width: 500px;
   max-height: 250px;
+  opacity: 0.6;
 }
 .project-container img:hover {
   transform: scale(1.1);
   cursor: pointer;
   transition: 0.6s;
+  opacity: 1;
+}
+
+.project-container h3 {
+  color: #fff;
 }
 .project p {
   line-height: 2rem;
+  color: #fff;
 }
-.project span {
+.project .project-container span {
   color: #88abdb;
 }
 .project .btn-project {
-  margin: 0.7rem 0rem;
+  margin: 1.2rem 0rem;
 }
 
 .btn-project img {
@@ -332,7 +346,7 @@ a {
 }
 
 .project .btn-project a {
-  color: #333;
+  color: #fff;
   background-color: rgba(255, 255, 255, 0.185);
   font-size: 1.1rem;
   padding: 14px 20px;
@@ -414,6 +428,11 @@ a {
 
 [data-anime="safe"] {
   transform: translate3d(0, -50px, 0);
+}
+
+[data-anime="ocult"] {
+  transform: translate3d(0, 0, 0);
+  transition-delay: 0.5s;
 }
 
 [data-anime].animate {
