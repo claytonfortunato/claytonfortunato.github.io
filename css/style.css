@@ -305,8 +305,11 @@ a {
 
 .project_left h2 {
   color: #fff;
-  text-decoration: underline;
+
   margin-left: 40px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, #88abdb, transparent);
+  width: 30%;
 }
 .project h1 {
   text-align: center;
@@ -375,6 +378,50 @@ a {
 
 .all_project {
   background-color: #333;
+  height: 100vh;
+}
+
+.container_all_project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+.all_project h2 {
+  color: #fff;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, #88abdb, transparent);
+  width: 30%;
+}
+
+.project-container p {
+  line-height: 2rem;
+  color: #fff;
+}
+
+.container_all_project .project-container span {
+  color: #88abdb;
+}
+
+.project-container .btn-project a {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.185);
+  font-size: 1.1rem;
+  padding: 14px 20px;
+  border: 1px solid #88abdb;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 350ms;
+  text-decoration: none;
+}
+.project-container .btn-project a:hover {
+  background-color: #88abdb;
+  color: white;
+}
+.btn-project {
+  margin: 1rem 0rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -393,7 +440,8 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-  .container-cards {
+  .container-cards,
+  .container_all_project {
     margin: 0;
   }
 
