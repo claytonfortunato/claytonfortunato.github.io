@@ -425,17 +425,21 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
-  .container-cards {
+  .container-cards,
+  .container_all_project {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 0% 22%;
   }
 
   .project-container {
     width: 100%;
-    margin-bottom: 1rem;
+    margin: 1rem 0rem;
+  }
+
+  .all_project {
+    height: 100%;
   }
 }
 
@@ -445,7 +449,8 @@ a {
     margin: 0;
   }
 
-  .project-container {
+  .project-container,
+  .all_project {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -453,8 +458,8 @@ a {
     margin-bottom: 2rem;
   }
 
-  .all_project {
-    height: 100%;
+  .all_project h2 {
+    white-space: nowrap;
   }
 }
 
