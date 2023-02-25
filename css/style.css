@@ -246,14 +246,19 @@ a {
 
 .container-skill .cards .box {
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   background-color: rgba(255, 255, 255, 0.185);
-  width: 120px;
+  width: 140px;
+  height: 140px;
   margin: 10px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .container-skill .cards .box p {
-  margin: 0.3rem 0rem;
+  margin: 0.2rem 0rem;
 }
 
 .container-skill .cards .box img {
