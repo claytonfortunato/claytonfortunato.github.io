@@ -304,41 +304,43 @@ a {
 }
 
 /* Projeto */
-.container-cards .caixa {
+.container-cards .wrapper {
   position: relative;
   width: 510px;
-  height: 290px;
+  height: 250px;
+
   display: flex;
   justify-content: center;
   align-items: center;
 
   transition: 0.5s;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #88abdb;
 }
 
-.caixa:hover {
-  height: 350px;
+.wrapper:hover {
+  height: 310px;
+  border-bottom: 3px solid #88abdb;
 }
 
-.caixa .imgBx {
+.wrapper .imgBx {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  box-sizing: border-box;
 }
 
-.caixa .imgBx img {
+.wrapper .imgBx img {
   max-width: 100%;
   opacity: 0.4;
   transition: 0.5s;
 }
 
-.caixa:hover .imgBx img {
+.wrapper:hover .imgBx img {
   opacity: 1;
 }
 
-.caixa:before {
+.wrapper:before {
   content: "";
   position: absolute;
   top: -2px;
@@ -349,7 +351,7 @@ a {
   z-index: -1;
 }
 
-.caixa::after {
+.wrapper::after {
   content: "";
   position: absolute;
   top: -2px;
@@ -360,12 +362,12 @@ a {
   z-index: -2;
 }
 
-.caixa::before,
-.caixa::after {
-  background-color: rgba(255, 255, 255, 0.2);
+.wrapper::before,
+.wrapper::after {
+  background-color: rgba(17, 17, 17, 0.65);
 }
 
-.caixa .content {
+.wrapper .content {
   position: absolute;
   bottom: 0;
   left: 10px;
@@ -373,43 +375,47 @@ a {
   bottom: 10px;
   height: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   opacity: 0;
   transition: 0.5s;
 }
 
-.caixa:hover .content {
+.wrapper:hover .content {
   opacity: 1;
 }
 
-.caixa .content button {
+.wrapper .content button {
+  margin-top: 0.4rem;
   color: #fff;
   background-color: #88abdb;
   font-size: 1.1rem;
-  padding: 14px 20px;
+  padding: 6px;
   border: 1px solid #88abdb;
   border-radius: 10px;
   cursor: pointer;
   transition: 350ms;
-  text-decoration: none;
 }
 
-.caixa .content button:hover {
+.wrapper .content button:hover {
   background-color: #88abdb;
   color: white;
 }
 
-/* parte de cima card teste*/
+.wrapper .content p {
+  color: #fff;
+}
+
+/* parte de cima card */
 
 .project {
   height: 100%;
   background-color: #333;
+  margin-top: 20px;
 }
 
 .project_left h2 {
   color: #fff;
-
   margin-left: 40px;
   margin-bottom: 20px;
   background-image: linear-gradient(to right, #88abdb, transparent);
@@ -422,71 +428,13 @@ a {
 
 .container-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  margin-left: 40px;
-}
-
-.project-container img {
-  width: 100%;
-  max-width: 500px;
-  max-height: 250px;
-  opacity: 0.6;
-}
-.project-container img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-  transition: 0.6s;
-  opacity: 1;
-}
-
-.project-container h3 {
-  color: #fff;
-}
-.project p {
-  line-height: 2rem;
-  color: #fff;
-}
-.project .project-container span {
-  color: #88abdb;
-}
-.project .btn-project {
-  margin: 1.2rem 0rem;
-}
-
-.btn-project img {
-  height: 20px;
-  width: 20px;
-}
-
-.project .btn-project a {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.185);
-  font-size: 1.1rem;
-  padding: 14px 20px;
-  border: 1px solid #88abdb;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 350ms;
-  text-decoration: none;
-}
-.project .btn-project a:hover {
-  background-color: #88abdb;
-  color: white;
-}
-.project .btn-project a svg {
-  margin: 0rem 0.4rem;
 }
 
 .all_project {
   background-color: #333;
   height: 100vh;
-}
-
-.container_all_project {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 40px;
 }
 
 .all_project h2 {
@@ -497,32 +445,9 @@ a {
   width: 30%;
 }
 
-.project-container p {
-  line-height: 2rem;
-  color: #fff;
-}
-
-.container_all_project .project-container span {
-  color: #88abdb;
-}
-
-.project-container .btn-project a {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.185);
-  font-size: 1.1rem;
-  padding: 14px 20px;
-  border: 1px solid #88abdb;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 350ms;
-  text-decoration: none;
-}
-.project-container .btn-project a:hover {
-  background-color: #88abdb;
-  color: white;
-}
-.btn-project {
-  margin: 1rem 0rem;
+.all_project .container-cards {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1200px) {
@@ -602,6 +527,11 @@ a {
 [data-anime="ocult"] {
   transform: translate3d(0, 0, 0);
   transition-delay: 0.5s;
+}
+
+[data-anime="fixed"] {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 [data-anime].animate {
