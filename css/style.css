@@ -15,7 +15,6 @@ html {
 /* Navbar */
 body {
   overflow-x: hidden;
-  background-color: #88abdb;
 }
 
 a {
@@ -142,7 +141,7 @@ a {
 
 /* About */
 .about {
-  background-color: #88abdb;
+  background-color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,6 +160,16 @@ a {
 .container-about h1 {
   text-align: center;
   text-transform: uppercase;
+  color: #fff;
+}
+
+.container-about h4 {
+  color: #fff;
+}
+
+.container-about p {
+  color: #fff;
+  line-height: 200%;
 }
 .about img {
   margin-right: 20px;
@@ -183,7 +192,7 @@ a {
 }
 
 .btn .container-about-button a {
-  color: #333;
+  color: #fff;
   font-size: 1.2rem;
   padding: 14px 20px;
   border: 1px solid #88abdb;
@@ -228,13 +237,14 @@ a {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background-color: #88abdb;
+  background-color: #333;
   height: 100%;
   min-height: 35vh;
 }
 
 .container-skill h1 {
   margin-top: 2rem;
+  color: #fff;
 }
 .container-skill .cards {
   width: 100%;
@@ -259,6 +269,7 @@ a {
 }
 .container-skill .cards .box p {
   margin: 0.2rem 0rem;
+  color: #88abdb;
 }
 
 .container-skill .cards .box img {
@@ -279,6 +290,7 @@ a {
 }
 .container-skill .container-tool h1 {
   text-align: center;
+  color: #fff;
 }
 .container-skill .container-tool .tool {
   background-color: rgba(255, 255, 255, 0.185);
@@ -338,6 +350,10 @@ a {
 
 .wrapper:hover .imgBx img {
   opacity: 1;
+}
+
+.wrapper:hover .cover {
+  opacity: 0;
 }
 
 .wrapper:before {
@@ -406,12 +422,30 @@ a {
   color: #fff;
 }
 
+.container-cards .wrapper .cover {
+  position: absolute;
+  font-size: 20px;
+  color: #fff;
+
+  z-index: 10;
+}
+
+.wrapper .cover img {
+  height: 25px;
+  width: 25px;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* parte de cima card */
 
 .project {
   height: 100%;
   background-color: #333;
-  margin-top: 20px;
 }
 
 .project_left h2 {
