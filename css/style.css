@@ -350,6 +350,7 @@ a {
 
 .wrapper:hover .imgBx img {
   opacity: 1;
+  transform: scale(1.03);
 }
 
 .wrapper:hover .cover {
