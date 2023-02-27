@@ -415,12 +415,6 @@ a {
   border: 1px solid #88abdb;
   border-radius: 10px;
   cursor: pointer;
-  transition: 350ms;
-}
-
-.wrapper .content button:hover {
-  background-color: #88abdb;
-  color: white;
 }
 
 .wrapper .content p {
@@ -567,6 +561,8 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid #ddd;
 }
 
+/* Modal */
+
 #fade {
   position: fixed;
   top: 0;
@@ -582,7 +578,7 @@ body::-webkit-scrollbar-thumb {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 75%;
   height: 500px;
   max-width: 90%;
   background-color: #fff;
@@ -595,7 +591,6 @@ body::-webkit-scrollbar-thumb {
 #modal {
   transition: 0.5s;
   opacity: 1;
-  pointer-events: all;
 }
 
 #modal.hide,
