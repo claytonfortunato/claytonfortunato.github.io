@@ -1,6 +1,6 @@
 
 
-![Home-portfolio](https://user-images.githubusercontent.com/104373308/216826370-3b7034e3-9fe2-42b8-b1e3-161745f9439e.png)
+![portfolio-mobile](https://user-images.githubusercontent.com/104373308/221448320-ebd94742-5cdb-485b-94b3-a384b4583400.png)
 
 
 </p>
