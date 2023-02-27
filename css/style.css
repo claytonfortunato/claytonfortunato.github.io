@@ -326,7 +326,7 @@ a {
   align-items: center;
 
   transition: 0.5s;
-  margin-bottom: 20px;
+
   border-bottom: 3px solid #88abdb;
 }
 
@@ -473,7 +473,7 @@ a {
 
 .all_project {
   background-color: #333;
-  height: 100%;
+  height: 100vh;
 }
 
 .all_project h2 {
@@ -565,4 +565,41 @@ body::-webkit-scrollbar-thumb {
   background-color: #88abdb;
   border-radius: 20px;
   border: 1px solid #ddd;
+}
+
+#fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 5;
+}
+
+#modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  max-width: 90%;
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  z-index: 10;
+}
+
+#fade,
+#modal {
+  transition: 0.5s;
+  opacity: 1;
+  pointer-events: all;
+}
+
+#modal.hide,
+#fade.hide {
+  opacity: 0;
+  pointer-events: none;
 }
