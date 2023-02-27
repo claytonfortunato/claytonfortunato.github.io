@@ -21,12 +21,13 @@ a {
   text-decoration: none;
   color: #333;
 }
+
 .container-nav {
   position: fixed;
   top: 0;
   right: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
   background-color: #88abdb;
@@ -34,11 +35,17 @@ a {
   height: 8%;
   z-index: 5;
 }
+
+.container-nav img {
+  height: 40px;
+  width: 40px;
+}
+
 .container-nav .nav-itens {
   display: flex;
   flex-wrap: wrap;
 
-  gap: 30px;
+  gap: 20px;
   transition: 0.5s ease-in;
 }
 .container-nav .nav-item {
@@ -156,7 +163,6 @@ a {
   max-width: 700px;
   border-radius: 10px;
   padding: 20px;
-  margin-top: -100px;
 }
 .container-about h1 {
   text-align: center;
@@ -411,10 +417,15 @@ a {
   color: #fff;
   background-color: #88abdb;
   font-size: 1.1rem;
-  padding: 6px;
+  padding: 2px;
   border: 1px solid #88abdb;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+.wrapper .content button:hover {
+  opacity: 0.8;
 }
 
 .wrapper .content p {
