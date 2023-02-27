@@ -56,3 +56,25 @@ const toggleModal = () => {
 [openModalButton, closeModalButton, fade].forEach((el) => {
   el.addEventListener("click", () => toggleModal());
 });
+
+// Scroll Smooth
+
+const initScrollSmooth = () => {
+  const linksInternos = document.querySelectorAll("nav a");
+
+  linksInternos.forEach((item) => {
+    const scrollToSection = (event) => {
+      event.preventDefault();
+      const href = event.currentTarget.getAttribute("href");
+      const section = document.querySelector(href);
+
+      window.scrollTo({
+        top: section.offsetTop - 100,
+      });
+    };
+
+    item.addEventListener("click", scrollToSection);
+  });
+};
+
+initScrollSmooth();
