@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Menu
 const ul = document.querySelector(".nav-itens");
 const menuBtn = document.querySelector(".menu-btn i");
+const links = document.querySelectorAll("nav a");
 
 const menuShow = () => {
   if (ul.classList.contains("open")) {
@@ -19,6 +20,11 @@ const menuShow = () => {
 
 menuBtn.addEventListener("click", () => {
   menuShow();
+});
+
+// Fechar menu a clicar
+links.forEach((link) => {
+  link.addEventListener("click", menuShow);
 });
 
 // scroll animation
@@ -75,6 +81,8 @@ const initScrollSmooth = () => {
 
     item.addEventListener("click", scrollToSection);
   });
+
+  linksInternos.addEventListener("click", () => {});
 };
 
 initScrollSmooth();
