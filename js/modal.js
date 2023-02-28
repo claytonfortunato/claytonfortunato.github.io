@@ -1,7 +1,7 @@
 const dataProjects = [
   {
     title: "Pokedex",
-    date: "10 de Janeiro 2023",
+    date: "10 de Janeiro de 2023",
     description: `Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o pokemon selecionado <br><br>
       
       • Listagem de pokemons; <br>
@@ -12,6 +12,76 @@ const dataProjects = [
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/214087631-2111ff67-4177-4ee5-abe5-c907243f6c96.mp4",
     repository: "https://github.com/claytonfortunato/Pokedex",
+    site: "",
+  },
+  {
+    title: "Sneakers Shop",
+    date: "29 de Janeiro de 2023",
+    description: `Projeto simula um ecommerce simples, onde foi construído fazendo uma requisição de um json onde a mesma retorna todas as imagens que temos a exposição , essa aplicação nos permite adicioná-lo, removê-lo do carrinho e mostrando o valor total. <br><br>
+      
+      • Adicionando produto no carrinho; <br>
+      • Adicionando ou diminuindo quantidade de produto; <br>
+      • Removendo produto de carrinho; <br>
+      • Marcando o total do valor de produto no carrinho; <br>
+      • Responsividade.`,
+    videoSrc:
+      "https://user-images.githubusercontent.com/104373308/216209688-b26e39f1-5b9d-416d-a4a2-7930bb502720.mp4",
+    repository: "https://github.com/claytonfortunato/e-commerce",
+    site: "https://iridescent-maamoul-4f2fd4.netlify.app/",
+  },
+  {
+    title: "Movies",
+    date: "2 de Fevereiro de 2023",
+    description: `Essa aplicação web tem o intuito de buscar e mostrar dethales de cada filme selecionado, e com a page home com os filmes mais votados. <br><br>
+      
+      • Página de Top Filmes; <br>
+      • Detalhes de cada filmes; <br>
+      • Pesquisar filmes no campo de busca; <br>
+      • Responsividade.`,
+    videoSrc:
+      "https://user-images.githubusercontent.com/104373308/216789465-86a3df9a-b488-40be-b4ca-e947c800ff08.mp4",
+    repository: "https://github.com/claytonfortunato/Movies",
+    site: "https://profound-maamoul-0e88e6.netlify.app/",
+  },
+  {
+    title: "Todo List",
+    date: "6 de Fevereiro de 2023",
+    description: `Essa aplicação web tem o intuito de adicionar umas lista de tarefas completas e incompletas e filtrando a busca. <br><br>
+      
+      • Adicionar tarefas; <br>
+      • Filtrar tarefas; <br>
+      • Deletar tarefas; <br>`,
+    videoSrc:
+      "https://user-images.githubusercontent.com/104373308/219694885-2e7161e8-ddd1-4f91-b370-a34a9c2b56f4.mp4",
+    repository: "https://github.com/claytonfortunato/Todo-List",
+    site: "",
+  },
+  {
+    title: "Calculadora",
+    date: "17 de Fevereiro de 2023",
+    description: `Essa aplicação web tem o intuito de demonstrar uma simples calculadora. <br><br>
+      
+      • Adicionar elemento; <br>
+      • Calcular elemento; <br>`,
+    videoSrc:
+      "https://user-images.githubusercontent.com/104373308/219822585-44b4c6e5-a9c0-43aa-8b52-5414cc789fc7.mp4",
+    repository: "https://github.com/claytonfortunato/Calculator-React",
+    site: "https://extraordinary-cat-761efb.netlify.app/",
+  },
+  {
+    title: "Forecast Weather",
+    date: "17 de Fevereiro de 2023",
+    description: `Essa aplicação web tem o intuito de buscar e mostrar a temperatura de cada cidade buscada <br><br>
+      
+      • Busca de cidade; <br>
+      • Mostrando clima de cada cidade; <br>
+      • Horário de inicio e término do por-do-sol; <br>
+      • Velocidade e direção do vento; <br>
+      • Radar meteorológico e mapas de chuva; <br>
+      • Humidade do ar; <br>`,
+    videoSrc:
+      "https://user-images.githubusercontent.com/104373308/219822585-44b4c6e5-a9c0-43aa-8b52-5414cc789fc7.mp4",
+    repository: "https://github.com/claytonfortunato/weather-app",
     site: "",
   },
 ];

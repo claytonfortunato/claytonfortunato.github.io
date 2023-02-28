@@ -574,16 +574,6 @@ body::-webkit-scrollbar-thumb {
 
 /* Modal */
 
-#fade {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.295);
-  z-index: 5;
-}
-
 .modal {
   position: fixed;
   left: 50%;
@@ -607,7 +597,6 @@ body::-webkit-scrollbar-thumb {
 
 .modal.hidden {
   opacity: 0;
-  pointer-events: none;
 }
 
 .modal.hidden {
