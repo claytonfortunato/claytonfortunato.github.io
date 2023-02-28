@@ -103,7 +103,7 @@ const dataProjects = [
 // Open Modal
 
 const openModal = () => {
-  const closeModal = document.querySelector(" .close-modal");
+  const closeModal = document.querySelector(".close-modal");
   const modal = document.querySelector(".modal");
   const box = document.querySelectorAll(".container-cards .wrapper");
   const modalTitle = modal.querySelector(".title h2");

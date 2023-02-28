@@ -35,8 +35,6 @@ const initScrollSmooth = () => {
 
     item.addEventListener("click", scrollToSection);
   });
-
-  linksInternos.addEventListener("click", () => {});
 };
 
 initScrollSmooth();

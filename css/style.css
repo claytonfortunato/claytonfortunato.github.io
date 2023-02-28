@@ -17,11 +17,6 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  text-decoration: none;
-  color: #333;
-}
-
 .container-nav {
   position: fixed;
   top: 0;
@@ -575,31 +570,74 @@ body::-webkit-scrollbar-thumb {
 /* Modal */
 
 .modal {
+  display: flex;
+  flex-direction: column;
+
   position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   width: 75%;
-  height: 500px;
 
-  background-color: #fff;
+  background-color: #ddd;
   padding: 1.2rem;
   border-radius: 0.5rem;
   z-index: 10;
   transition: 0.5s all ease-in-out;
-}
 
-.modal {
-  transition: 0.5s;
   opacity: 1;
   pointer-events: all;
 }
 
-.modal.hidden {
-  opacity: 0;
+.modal .close-modal {
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  background-color: #88abdb;
+  color: #fff;
+  border-radius: 10px;
+  padding: 6px;
+  transition: 0.3s all ease-in-out;
+}
+
+.close-modal:hover {
+  color: #333;
 }
 
 .modal.hidden {
+  opacity: 0;
   top: 0;
+  transition: 0.3s all ease-in-out;
+}
+
+.modal .top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal .top .video {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #333;
+  margin: 0.8rem 0rem;
+}
+
+.modal .top .video iframe {
+  width: 59.8rem;
+  height: 33.6rem;
+}
+
+.links a {
+  text-decoration: none;
+  background-color: #88abdb;
+  color: #fff;
+  margin-top: 10px;
+  border: none;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.links a:hover {
+  color: #333;
   transition: 0.3s all ease-in-out;
 }
