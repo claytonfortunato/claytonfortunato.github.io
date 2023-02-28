@@ -71,7 +71,7 @@ const dataProjects = [
   {
     title: "Forecast Weather",
     date: "17 de Fevereiro de 2023",
-    description: `Essa aplicação web tem o intuito de buscar e mostrar a temperatura de cada cidade buscada <br><br>
+    description: `Essa aplicação web tem o intuito de buscar e mostrar a temperatura de cada cidade buscada. <br><br>
       
       • Busca de cidade; <br>
       • Mostrando clima de cada cidade; <br>
@@ -83,6 +83,20 @@ const dataProjects = [
       "https://user-images.githubusercontent.com/104373308/219822585-44b4c6e5-a9c0-43aa-8b52-5414cc789fc7.mp4",
     repository: "https://github.com/claytonfortunato/weather-app",
     site: "",
+  },
+  {
+    title: "Jogo da Memória",
+    date: "22 de Fevereiro de 2023",
+    description: `Um jogo da memória, onde os usuários devem lembrar as posições das cartas e abrir duas imagens exatas sequencialmente para marcar pontos. Uma vez que todos os cartões são abertos, o usuário é vitorioso. <br><br>
+      
+      • Rastrear os movimentos; <br>
+      • Pontos de acertos; <br>
+      • Função caso ganhe; <br>
+      • Resetar funcionalidade; <br>`,
+    videoSrc:
+      "https://user-images.githubusercontent.com/104373308/221963518-22130a40-91ff-4998-b87a-a5178747807c.mp4",
+    repository: "https://github.com/claytonfortunato/MemoryGame",
+    site: "https://eloquent-rugelach-091b24.netlify.app/",
   },
 ];
 
