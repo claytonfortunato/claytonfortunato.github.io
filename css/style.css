@@ -412,7 +412,7 @@ a {
   opacity: 1;
 }
 
-.wrapper .content button {
+.wrapper .content a {
   margin-top: 0.4rem;
   color: #fff;
   background-color: #88abdb;
@@ -584,7 +584,7 @@ body::-webkit-scrollbar-thumb {
   z-index: 5;
 }
 
-#modal {
+.modal {
   position: fixed;
   left: 50%;
   top: 50%;
@@ -596,21 +596,21 @@ body::-webkit-scrollbar-thumb {
   padding: 1.2rem;
   border-radius: 0.5rem;
   z-index: 10;
+  transition: 0.5s all ease-in-out;
 }
 
-#fade,
-#modal {
+.modal {
   transition: 0.5s;
   opacity: 1;
   pointer-events: all;
 }
 
-#modal.hide,
-#fade.hide {
+.modal.hidden {
   opacity: 0;
   pointer-events: none;
 }
 
-#modal.hide {
+.modal.hidden {
   top: 0;
+  transition: 0.3s all ease-in-out;
 }
