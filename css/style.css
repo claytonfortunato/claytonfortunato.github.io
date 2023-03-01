@@ -43,10 +43,10 @@ body {
   transition: 350ms;
   color: #333;
   cursor: pointer;
-  background-color: #ddd;
+  margin: 0rem 1rem;
 }
 
-.nav-item:hover {
+.nav a:hover {
   border-bottom: 1px solid #333;
 }
 

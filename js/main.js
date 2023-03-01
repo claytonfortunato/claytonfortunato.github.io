@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Menu mobile
-const ul = document.querySelector(".nav-itens");
+const ul = document.querySelector(".container-nav a");
 const menuBtn = document.querySelector(".menu-btn i");
 const links = document.querySelectorAll("nav a");
 

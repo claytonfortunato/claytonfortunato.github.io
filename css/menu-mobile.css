@@ -9,7 +9,7 @@
     display: block;
   }
 
-  .container-nav .nav-itens {
+  .container-nav a {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -22,11 +22,11 @@
     width: 100%;
   }
 
-  .container-nav .nav-itens.open {
+  .container-nav a.open {
     right: 0;
   }
 
-  .nav-item a {
+  a {
     font-size: 22px;
   }
 }

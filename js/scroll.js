@@ -20,7 +20,7 @@ window.addEventListener("scroll", () => {
 });
 
 const initScrollSmooth = () => {
-  const linksInternos = document.querySelectorAll("nav a");
+  const linksInternos = document.querySelector("nav a");
 
   linksInternos.forEach((item) => {
     const scrollToSection = (event) => {
