@@ -29,9 +29,7 @@ const dataProjects = [
       • Adicionando ou diminuindo quantidade de produto; <br>
       • Removendo produto de carrinho; <br>
       • Marcando o total do valor de produto no carrinho; <br>
-      • Responsividade.
-      
-      <br>
+      • Responsividade.<br><br>
       Tecnologias usadas no projetos:<br>
       • React<br>
       • Redux<br>

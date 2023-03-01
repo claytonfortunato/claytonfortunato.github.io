@@ -9,17 +9,17 @@
     display: block;
   }
 
-  .container-nav a {
+  .container-nav .nav-itens {
     display: flex;
     flex-direction: column;
     position: fixed;
     top: 8%;
     right: -100%;
-    background-color: #88abdbda;
+    background-color: #88abdb;
     text-align: center;
     display: block;
-    transition: all 0.5s ease;
-    width: 100%;
+    transition: all 0.3s ease;
+    width: 30%;
   }
 
   .container-nav a.open {
@@ -27,6 +27,6 @@
   }
 
   a {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
