@@ -8,7 +8,13 @@ const dataProjects = [
       • Busca de pokemon pelo nome; <br>
       • Detalhes do pokemon selecionado; <br>
       • Carregamento por lista; <br>
-      • Responsividade.`,
+      • Responsividade.<br>
+      
+      <br>
+      Tecnologias usadas no projetos:<br>
+      • React<br>
+      • SASS
+      `,
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/214087631-2111ff67-4177-4ee5-abe5-c907243f6c96.mp4",
     repository: "https://github.com/claytonfortunato/Pokedex",
@@ -23,7 +29,14 @@ const dataProjects = [
       • Adicionando ou diminuindo quantidade de produto; <br>
       • Removendo produto de carrinho; <br>
       • Marcando o total do valor de produto no carrinho; <br>
-      • Responsividade.`,
+      • Responsividade.
+      
+      <br>
+      Tecnologias usadas no projetos:<br>
+      • React<br>
+      • Redux<br>
+      • SASS
+      `,
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/216209688-b26e39f1-5b9d-416d-a4a2-7930bb502720.mp4",
     repository: "https://github.com/claytonfortunato/e-commerce",
@@ -37,7 +50,13 @@ const dataProjects = [
       • Página de Top Filmes; <br>
       • Detalhes de cada filmes; <br>
       • Pesquisar filmes no campo de busca; <br>
-      • Responsividade.`,
+      • Responsividade.
+      
+      <br>
+      Tecnologias usadas no projetos:<br>
+      • React<br>
+      • SASS
+      `,
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/216789465-86a3df9a-b488-40be-b4ca-e947c800ff08.mp4",
     repository: "https://github.com/claytonfortunato/Movies",
@@ -50,7 +69,14 @@ const dataProjects = [
       
       • Adicionar tarefas; <br>
       • Filtrar tarefas; <br>
-      • Deletar tarefas; <br>`,
+      • Deletar tarefas; <br>
+      
+      <br>
+      Tecnologias usadas no projetos:<br>
+      • React<br>
+      • SASS<br>
+      • Material-UI
+      `,
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/219694885-2e7161e8-ddd1-4f91-b370-a34a9c2b56f4.mp4",
     repository: "https://github.com/claytonfortunato/Todo-List",
@@ -62,7 +88,13 @@ const dataProjects = [
     description: `Essa aplicação web tem o intuito de demonstrar uma simples calculadora. <br><br>
       
       • Adicionar elemento; <br>
-      • Calcular elemento; <br>`,
+      • Calcular elemento; <br>
+      
+      <br>
+      Tecnologias usadas no projetos:<br>
+      • React<br>
+      • SASS
+      `,
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/219822585-44b4c6e5-a9c0-43aa-8b52-5414cc789fc7.mp4",
     repository: "https://github.com/claytonfortunato/Calculator-React",
@@ -78,7 +110,14 @@ const dataProjects = [
       • Horário de inicio e término do por-do-sol; <br>
       • Velocidade e direção do vento; <br>
       • Radar meteorológico e mapas de chuva; <br>
-      • Humidade do ar; <br>`,
+      • Humidade do ar; <br>
+      
+      <br>
+      Tecnologias usadas no projetos:<br>
+      • React<br>
+      • Typescript<br>
+      • Styled-Components
+      `,
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/219822585-44b4c6e5-a9c0-43aa-8b52-5414cc789fc7.mp4",
     repository: "https://github.com/claytonfortunato/weather-app",
@@ -92,7 +131,14 @@ const dataProjects = [
       • Rastrear os movimentos; <br>
       • Pontos de acertos; <br>
       • Função caso ganhe; <br>
-      • Resetar funcionalidade; <br>`,
+      • Resetar funcionalidade; <br>
+      
+      <br>
+      Tecnologias usadas no projetos:<br>
+      • React<br>
+      • Typescript<br>
+      • Styled-Components
+      `,
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/221963518-22130a40-91ff-4998-b87a-a5178747807c.mp4",
     repository: "https://github.com/claytonfortunato/MemoryGame",
@@ -137,17 +183,17 @@ const openModal = () => {
     item.addEventListener("click", addData);
   });
 
-  const closingModal = () => {
+  const handleCloseModal = () => {
     modal.classList.add("hidden");
     document.body.style.overflow = "visible";
     document.body.classList.remove("transparent");
     iframe.setAttribute("src", "");
   };
 
-  closeModal.addEventListener("click", closingModal);
+  closeModal.addEventListener("click", handleCloseModal);
 
   document.addEventListener("keydown", (event) =>
-    event.key === "Escape" ? closingModal() : ""
+    event.key === "Escape" ? handleCloseModal() : ""
   );
 };
 
