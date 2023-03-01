@@ -611,6 +611,7 @@ body::-webkit-scrollbar-thumb {
 .modal.hidden {
   opacity: 0;
   transition: 0.3s all ease-in-out;
+  top: 0;
 }
 
 .modal .top {
