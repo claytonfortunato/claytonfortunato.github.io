@@ -12,6 +12,10 @@ html {
   overflow-x: hidden;
 }
 
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
 /* Navbar */
 body {
   overflow-x: hidden;
@@ -414,7 +418,7 @@ body {
   transition: 0.2s all ease-in-out;
 }
 
-.wrapper .content button:hover {
+.wrapper .content a:hover {
   opacity: 0.8;
 }
 
@@ -581,7 +585,6 @@ body::-webkit-scrollbar-thumb {
   transition: 0.5s all ease-in-out;
 
   opacity: 1;
-  pointer-events: all;
 }
 
 .modal .close-modal {
@@ -627,10 +630,11 @@ body::-webkit-scrollbar-thumb {
   background-color: #88abdb;
   color: #fff;
   margin: 10px;
-
+  cursor: pointer;
   border: none;
   padding: 6px;
   border-radius: 10px;
+  display: inline-block;
 }
 
 .links a:hover {
