@@ -16,11 +16,12 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
-/* Navbar */
+
 body {
   overflow-x: hidden;
 }
 
+/* Navbar */
 .container-nav {
   position: fixed;
   top: 0;
@@ -724,6 +725,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 400px) {
+  .top .video {
+    margin: 0.2rem 0rem;
+  }
+
   .modal .top .video iframe {
     width: 16rem;
     height: 9rem;
@@ -731,6 +736,10 @@ body::-webkit-scrollbar-thumb {
 
   .top .info {
     padding: 0;
+  }
+
+  .info p {
+    margin: 0;
   }
 
   .links a {
