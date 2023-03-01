@@ -100,7 +100,7 @@ const dataProjects = [
   },
   {
     title: "Forecast Weather",
-    date: "17 de Fevereiro de 2023",
+    date: "18 de Fevereiro de 2023",
     description: `Essa aplicação web tem o intuito de buscar e mostrar a temperatura de cada cidade buscada. <br><br>
       
       • Busca de cidade; <br>
@@ -162,6 +162,7 @@ const openModal = () => {
     const addData = () => {
       if (index != 5) {
         modal.classList.remove("hidden");
+
         document.body.style.overflow = "hidden";
         document.body.classList.add("transparent");
       }

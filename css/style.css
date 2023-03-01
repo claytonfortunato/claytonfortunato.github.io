@@ -586,11 +586,9 @@ body::-webkit-scrollbar-thumb {
   background-color: #222;
   padding: 1.2rem;
   border-radius: 0.5rem;
-  z-index: 10;
-
-  animation: fade 1s;
-
   z-index: 5;
+
+  transition: 0.5s all ease-in-out;
 }
 
 .modal .close-modal {
@@ -601,7 +599,6 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
   border-radius: 10px;
   padding: 6px;
-  transition: 0.3s all ease-in-out;
 }
 
 .close-modal:hover {
@@ -610,8 +607,8 @@ body::-webkit-scrollbar-thumb {
 
 .modal.hidden {
   opacity: 0;
-  transition: 0.3s all ease-in-out;
-  top: 0;
+  transition: 0.5s all ease-in-out;
+  top: -50%;
 }
 
 .modal .top {
