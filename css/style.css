@@ -13,15 +13,15 @@ html {
 }
 
 a {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
+  color: inherit;
+  text-decoration: inherit;
 }
 /* Navbar */
 body {
   overflow-x: hidden;
 }
 
-/* .container-nav {
+.container-nav {
   position: fixed;
   top: 0;
   right: 0;
@@ -50,9 +50,14 @@ body {
   margin: 0rem 1rem;
 }
 
+.container-nav .nav-itens {
+  display: flex;
+  list-style: none;
+}
+
 .container-nav a:hover {
   border-bottom: 1px solid #333;
-} */
+}
 
 /* Page home */
 .home {
@@ -582,9 +587,10 @@ body::-webkit-scrollbar-thumb {
   padding: 1.2rem;
   border-radius: 0.5rem;
   z-index: 10;
-  transition: 0.5s all ease-in-out;
 
-  opacity: 1;
+  animation: fade 1s;
+
+  z-index: 5;
 }
 
 .modal .close-modal {
@@ -604,7 +610,6 @@ body::-webkit-scrollbar-thumb {
 
 .modal.hidden {
   opacity: 0;
-  top: 0;
   transition: 0.3s all ease-in-out;
 }
 

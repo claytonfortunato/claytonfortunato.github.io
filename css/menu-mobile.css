@@ -9,7 +9,7 @@
     display: block;
   }
 
-  .container-nav .nav-itens {
+  .container-nav .nav-itens a {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -18,7 +18,7 @@
     background-color: #88abdb;
     text-align: center;
     display: block;
-    transition: all 0.3s ease;
+
     width: 30%;
   }
 
@@ -27,6 +27,6 @@
   }
 
   a {
-    font-size: 20px;
+    font-size: 22px;
   }
 }

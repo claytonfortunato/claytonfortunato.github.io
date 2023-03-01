@@ -29,7 +29,7 @@ const dataProjects = [
       • Adicionando ou diminuindo quantidade de produto; <br>
       • Removendo produto de carrinho; <br>
       • Marcando o total do valor de produto no carrinho; <br>
-      • Responsividade.<br><br>
+      • Responsividade.<br>
       Tecnologias usadas no projetos:<br>
       • React<br>
       • Redux<br>
@@ -172,10 +172,7 @@ const openModal = () => {
       modalLinkProject.setAttribute("href", dataProjects[index].site);
       modalLinkRepository.setAttribute("href", dataProjects[index].repository);
 
-      iframe.setAttribute(
-        "src",
-        dataProjects[index].videoSrc + "?autoplay=1&amp;loop=0"
-      );
+      iframe.setAttribute("src", dataProjects[index].videoSrc);
     };
 
     item.addEventListener("click", addData);
