@@ -19,7 +19,8 @@
     text-align: center;
     display: block;
     transition: 0.5s all ease-in-out;
-    width: 30%;
+    width: 100%;
+    max-width: 200px;
   }
 
   .container-nav .nav-itens.open {
