@@ -9,24 +9,24 @@
     display: block;
   }
 
-  .container-nav .nav-itens a {
+  .container-nav .nav-itens {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 8%;
+    top: 5%;
     right: -100%;
     background-color: #88abdb;
     text-align: center;
     display: block;
-
+    transition: 0.5s all ease-in-out;
     width: 30%;
   }
 
-  .container-nav a.open {
+  .container-nav .nav-itens.open {
     right: 0;
   }
 
-  a {
+  .nav-item a {
     font-size: 22px;
   }
 }

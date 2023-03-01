@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Menu mobile
-const ul = document.querySelector(".container-nav a");
+const ul = document.querySelector(".nav-itens");
 const menuBtn = document.querySelector(".menu-btn i");
-const links = document.querySelector("nav a");
+const links = document.querySelectorAll(".nav-itens li");
 
 const menuShow = () => {
   if (ul.classList.contains("open")) {
