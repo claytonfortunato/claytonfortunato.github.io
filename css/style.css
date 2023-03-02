@@ -33,7 +33,7 @@ body {
   background-color: #88abdb;
   width: 100%;
 
-  z-index: 100;
+  z-index: 5;
 }
 
 .container-nav img {
@@ -587,7 +587,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #222;
   padding: 1.2rem;
   border-radius: 0.5rem;
-  z-index: 5;
+  z-index: 6;
 
   transition: 0.5s all ease-in-out;
 }
