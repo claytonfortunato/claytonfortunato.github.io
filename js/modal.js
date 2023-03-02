@@ -13,6 +13,7 @@ const dataProjects = [
       <br>
       Tecnologias usadas no projetos:<br>
       • React<br>
+      • Context-Api<br>
       • SASS
       `,
     videoSrc:
