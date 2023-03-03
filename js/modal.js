@@ -39,7 +39,7 @@ const dataProjects = [
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/216209688-b26e39f1-5b9d-416d-a4a2-7930bb502720.mp4",
     repository: "https://github.com/claytonfortunato/e-commerce",
-    site: "https://iridescent-maamoul-4f2fd4.netlify.app/",
+    site: "https://grand-phoenix-98fa6f.netlify.app/",
   },
   {
     title: "Forecast Weather",
@@ -141,7 +141,7 @@ const dataProjects = [
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/219694885-2e7161e8-ddd1-4f91-b370-a34a9c2b56f4.mp4",
     repository: "https://github.com/claytonfortunato/Todo-List",
-    site: "",
+    site: "https://unrivaled-malabi-d93acb.netlify.app/",
   },
 ];
 
