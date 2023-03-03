@@ -157,7 +157,7 @@ const openModal = () => {
   const modalLinkProject = modal.querySelector(".links a.link-project");
   const modalLinkRepository = modal.querySelector(".links a.link-repository");
 
-  const iframe = modal.querySelector(".video iframe");
+  const iframe = modal.querySelector(".video video");
 
   box.forEach((item, index) => {
     const addData = () => {
