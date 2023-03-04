@@ -18,8 +18,8 @@ const dataProjects = [
       `,
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/214087631-2111ff67-4177-4ee5-abe5-c907243f6c96.mp4",
-    repository: "https://github.com/claytonfortunato/Pokedex",
-    site: "",
+    repository: "https://github.com/claytonfortunato/Pok-dex",
+    site: "https://stellular-concha-32c690.netlify.app/homepage",
   },
   {
     title: "Sneakers Shop",
