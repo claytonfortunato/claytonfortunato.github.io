@@ -143,6 +143,15 @@ const dataProjects = [
     repository: "https://github.com/claytonfortunato/Todo-List",
     site: "https://unrivaled-malabi-d93acb.netlify.app/",
   },
+  {
+    title: "ChatGPT",
+    date: "6 de Março de 2023",
+    description: `Projeto em desenvolvimento`,
+
+    videoSrc: "",
+    repository: "",
+    site: "",
+  },
 ];
 
 // Open Modal
