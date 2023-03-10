@@ -152,6 +152,15 @@ const dataProjects = [
     repository: "",
     site: "",
   },
+  {
+    title: "Conversor de Moedas",
+    date: "9 de Março de 2023",
+    description: `Projeto em desenvolvimento`,
+
+    videoSrc: "",
+    repository: "",
+    site: "",
+  },
 ];
 
 // Open Modal

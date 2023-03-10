@@ -630,6 +630,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .links a {
+  display: flex;
   text-decoration: none;
   background-color: #88abdb;
   color: #fff;
@@ -639,6 +640,7 @@ body::-webkit-scrollbar-thumb {
   padding: 6px;
   border-radius: 10px;
   display: inline-block;
+  width: fit-content;
 }
 
 .links a:hover {
@@ -687,7 +689,6 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 970px) {
   .top {
-    display: flex;
     flex-direction: column;
     padding: 0;
   }
