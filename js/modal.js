@@ -21,6 +21,7 @@ const dataProjects = [
     repository: "https://github.com/claytonfortunato/Pok-dex",
     site: "https://dev-pokedex-react.netlify.app/",
   },
+
   {
     title: "Sneakers Shop",
     date: "29 de Janeiro de 2023",
@@ -41,6 +42,7 @@ const dataProjects = [
     repository: "https://github.com/claytonfortunato/e-commerce",
     site: "https://grand-phoenix-98fa6f.netlify.app/",
   },
+
   {
     title: "Forecast Weather",
     date: "18 de Fevereiro de 2023",
@@ -64,6 +66,7 @@ const dataProjects = [
     repository: "https://github.com/claytonfortunato/weather-app",
     site: "",
   },
+
   {
     title: "Jogo da Memória",
     date: "22 de Fevereiro de 2023",
@@ -85,6 +88,7 @@ const dataProjects = [
     repository: "https://github.com/claytonfortunato/MemoryGame",
     site: "https://eloquent-rugelach-091b24.netlify.app/",
   },
+
   {
     title: "Calculadora",
     date: "17 de Fevereiro de 2023",
@@ -103,6 +107,7 @@ const dataProjects = [
     repository: "https://github.com/claytonfortunato/Calculator-React",
     site: "https://extraordinary-cat-761efb.netlify.app/",
   },
+
   {
     title: "Movies",
     date: "2 de Fevereiro de 2023",
@@ -123,6 +128,7 @@ const dataProjects = [
     repository: "https://github.com/claytonfortunato/Movies",
     site: "https://profound-maamoul-0e88e6.netlify.app/",
   },
+
   {
     title: "Todo List",
     date: "6 de Fevereiro de 2023",
@@ -143,6 +149,7 @@ const dataProjects = [
     repository: "https://github.com/claytonfortunato/Todo-List",
     site: "https://unrivaled-malabi-d93acb.netlify.app/",
   },
+
   {
     title: "ChatGPT",
     date: "6 de Março de 2023",
@@ -152,14 +159,16 @@ const dataProjects = [
     repository: "",
     site: "",
   },
-  {
-    title: "Conversor de Moedas",
-    date: "9 de Março de 2023",
-    description: `Projeto em desenvolvimento`,
 
-    videoSrc: "",
-    repository: "",
-    site: "",
+  {
+    title: "#Bora Codar - Challendes",
+    date: "18 de Março de 2023",
+    description: `#Bora Codar é um projeto semanal da Rocketseat com intuito de aprendizado na linguagem, nesse projeto venho mostrar todos meus projetos feitos durante a semana.`,
+
+    videoSrc:
+      "https://user-images.githubusercontent.com/104373308/233812162-0fa4d870-113f-4f6d-8934-1c08caf80663.mp4",
+    repository: "https://github.com/claytonfortunato/BoraCodar-Challenger",
+    site: "https://bora-codar-challenger.vercel.app/",
   },
 ];
 
