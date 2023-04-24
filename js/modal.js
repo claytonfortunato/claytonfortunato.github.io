@@ -163,7 +163,18 @@ const dataProjects = [
   {
     title: "#Bora Codar - Challendes",
     date: "18 de Março de 2023",
-    description: `#Bora Codar é um projeto semanal da Rocketseat com intuito de aprendizado na linguagem, nesse projeto venho mostrar todos meus projetos feitos durante a semana.`,
+    description: `#Bora Codar é um projeto semanal da Rocketseat com intuito de aprendizado na linguagem, nesse projeto venho mostrar todos meus projetos feitos durante a semana.<br></br>
+    
+    • Todos projetos; <br>
+    
+    
+    <br>
+    Tecnologias usadas no projetos:<br>
+    • React<br>
+    • Typescript<br>
+    • Styled-components
+    
+    `,
 
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/233812162-0fa4d870-113f-4f6d-8934-1c08caf80663.mp4",
