@@ -107,24 +107,27 @@ const dataProjects = [
   },
 
   {
-    title: "Movies",
-    date: "2 de Fevereiro de 2023",
-    description: `Essa aplicação web tem o intuito de buscar e mostrar dethales de cada filme selecionado, e com a page home com os filmes mais votados. <br><br>
-      
-      • Página de Top Filmes; <br>
-      • Detalhes de cada filmes; <br>
-      • Pesquisar filmes no campo de busca; <br>
-      • Responsividade.
-      
-      <br>
-      Tecnologias usadas no projetos:<br>
-      • React<br>
-      • SASS
-      `,
+    title: "Forecast Weather",
+    date: "18 de Fevereiro de 2023",
+    description: `Essa aplicação web tem o intuito de buscar e mostrar a temperatura de cada cidade buscada. <br><br>
+    
+    • Busca de cidade; <br>
+    • Mostrando clima de cada cidade; <br>
+    • Horário de inicio e término do por-do-sol; <br>
+    • Velocidade e direção do vento; <br>
+    • Radar meteorológico e mapas de chuva; <br>
+    • Humidade do ar; <br>
+    
+    <br>
+    Tecnologias usadas no projetos:<br>
+    • React<br>
+    • Typescript<br>
+    • Styled-Components
+    `,
     videoSrc:
-      "https://user-images.githubusercontent.com/104373308/216789465-86a3df9a-b488-40be-b4ca-e947c800ff08.mp4",
-    repository: "https://github.com/claytonfortunato/Movies",
-    site: "https://profound-maamoul-0e88e6.netlify.app/",
+      "https://user-images.githubusercontent.com/104373308/220668453-df083966-c84d-42a5-b8cd-96a634c5c881.mp4",
+    repository: "https://github.com/claytonfortunato/weather-app",
+    site: "",
   },
 
   {
@@ -159,26 +162,44 @@ const dataProjects = [
   },
 
   {
-    title: "Forecast Weather",
-    date: "18 de Fevereiro de 2023",
-    description: `Essa aplicação web tem o intuito de buscar e mostrar a temperatura de cada cidade buscada. <br><br>
-    
-    • Busca de cidade; <br>
-    • Mostrando clima de cada cidade; <br>
-    • Horário de inicio e término do por-do-sol; <br>
-    • Velocidade e direção do vento; <br>
-    • Radar meteorológico e mapas de chuva; <br>
-    • Humidade do ar; <br>
-    
-    <br>
-    Tecnologias usadas no projetos:<br>
-    • React<br>
-    • Typescript<br>
-    • Styled-Components
-    `,
+    title: "Movies",
+    date: "2 de Fevereiro de 2023",
+    description: `Essa aplicação web tem o intuito de buscar e mostrar dethales de cada filme selecionado, e com a page home com os filmes mais votados. <br><br>
+  
+  • Página de Top Filmes; <br>
+  • Detalhes de cada filmes; <br>
+  • Pesquisar filmes no campo de busca; <br>
+  • Responsividade.
+  
+  <br>
+  Tecnologias usadas no projetos:<br>
+  • React<br>
+  • SASS
+  `,
     videoSrc:
-      "https://user-images.githubusercontent.com/104373308/220668453-df083966-c84d-42a5-b8cd-96a634c5c881.mp4",
-    repository: "https://github.com/claytonfortunato/weather-app",
+      "https://user-images.githubusercontent.com/104373308/216789465-86a3df9a-b488-40be-b4ca-e947c800ff08.mp4",
+    repository: "https://github.com/claytonfortunato/Movies",
+    site: "https://profound-maamoul-0e88e6.netlify.app/",
+  },
+  {
+    title: "Receitas Mobile",
+    date: "7 de Abril de 2023",
+    description: `Projeto simulando um aplicativo de receitas que contém icone de favoritos,pagina de favoritos selecionados e página de video mostrando a receita, esse projeto feito para fins de aprendizagem. Projeto do Worksop de Sujeito Programador. <br><br>
+  
+  • Busca por receitas; <br>
+  • Favoritar receitas; <br>
+  • Modal com video de preparo; <br>
+  • Botão para compatilhamento.<br>
+  
+  <br>
+  Tecnologias usadas no projetos:<br>
+  • React Native<br>
+  • React Navigation<br>
+  • Axios<br>
+  `,
+    videoSrc:
+      "https://user-images.githubusercontent.com/104373308/235367094-807b67ed-d5b9-4ecc-b323-332712ee2d03.mp4",
+    repository: "https://github.com/claytonfortunato/Receitas-Mobile",
     site: "",
   },
 ];
@@ -199,7 +220,7 @@ const openModal = () => {
 
   box.forEach((item, index) => {
     const addData = () => {
-      if (index != 5) {
+      if (index != 10) {
         modal.classList.remove("hidden");
 
         document.body.style.overflow = "hidden";
