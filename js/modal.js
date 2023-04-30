@@ -44,27 +44,25 @@ const dataProjects = [
   },
 
   {
-    title: "Forecast Weather",
-    date: "18 de Fevereiro de 2023",
-    description: `Essa aplicação web tem o intuito de buscar e mostrar a temperatura de cada cidade buscada. <br><br>
+    title: "#Bora Codar - Challendes",
+    date: "18 de Março de 2023",
+    description: `#Bora Codar é um projeto semanal da Rocketseat com intuito de aprendizado na linguagem, nesse projeto venho mostrar todos meus projetos feitos durante a semana.<br></br>
     
-    • Busca de cidade; <br>
-    • Mostrando clima de cada cidade; <br>
-    • Horário de inicio e término do por-do-sol; <br>
-    • Velocidade e direção do vento; <br>
-    • Radar meteorológico e mapas de chuva; <br>
-    • Humidade do ar; <br>
+    • Todos projetos; <br>
+    
     
     <br>
     Tecnologias usadas no projetos:<br>
     • React<br>
     • Typescript<br>
-    • Styled-Components
+    • Styled-components
+    
     `,
+
     videoSrc:
-      "https://user-images.githubusercontent.com/104373308/220668453-df083966-c84d-42a5-b8cd-96a634c5c881.mp4",
-    repository: "https://github.com/claytonfortunato/weather-app",
-    site: "",
+      "https://user-images.githubusercontent.com/104373308/233812162-0fa4d870-113f-4f6d-8934-1c08caf80663.mp4",
+    repository: "https://github.com/claytonfortunato/BoraCodar-Challenger",
+    site: "https://bora-codar-challenger.vercel.app/",
   },
 
   {
@@ -161,25 +159,27 @@ const dataProjects = [
   },
 
   {
-    title: "#Bora Codar - Challendes",
-    date: "18 de Março de 2023",
-    description: `#Bora Codar é um projeto semanal da Rocketseat com intuito de aprendizado na linguagem, nesse projeto venho mostrar todos meus projetos feitos durante a semana.<br></br>
+    title: "Forecast Weather",
+    date: "18 de Fevereiro de 2023",
+    description: `Essa aplicação web tem o intuito de buscar e mostrar a temperatura de cada cidade buscada. <br><br>
     
-    • Todos projetos; <br>
-    
+    • Busca de cidade; <br>
+    • Mostrando clima de cada cidade; <br>
+    • Horário de inicio e término do por-do-sol; <br>
+    • Velocidade e direção do vento; <br>
+    • Radar meteorológico e mapas de chuva; <br>
+    • Humidade do ar; <br>
     
     <br>
     Tecnologias usadas no projetos:<br>
     • React<br>
     • Typescript<br>
-    • Styled-components
-    
+    • Styled-Components
     `,
-
     videoSrc:
-      "https://user-images.githubusercontent.com/104373308/233812162-0fa4d870-113f-4f6d-8934-1c08caf80663.mp4",
-    repository: "https://github.com/claytonfortunato/BoraCodar-Challenger",
-    site: "https://bora-codar-challenger.vercel.app/",
+      "https://user-images.githubusercontent.com/104373308/220668453-df083966-c84d-42a5-b8cd-96a634c5c881.mp4",
+    repository: "https://github.com/claytonfortunato/weather-app",
+    site: "",
   },
 ];
 
