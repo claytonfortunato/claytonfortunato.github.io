@@ -66,40 +66,60 @@ const dataProjects = [
   },
 
   {
-    title: "Jogo da Memória",
-    date: "22 de Fevereiro de 2023",
-    description: `Um jogo da memória, onde os usuários devem lembrar as posições das cartas e abrir duas imagens exatas sequencialmente para marcar pontos. Uma vez que todos os cartões são abertos, o usuário é vitorioso. <br><br>
-    
-    • Rastrear os movimentos; <br>
-    • Pontos de acertos; <br>
-    • Função caso ganhe; <br>
-    • Resetar funcionalidade; <br>
-    
-    <br>
-    Tecnologias usadas no projetos:<br>
-    • React<br>
-    • Typescript<br>
-    • Styled-Components
-    `,
+    title: "Movies",
+    date: "2 de Fevereiro de 2023",
+    description: `Essa aplicação web tem o intuito de buscar e mostrar dethales de cada filme selecionado, e com a page home com os filmes mais votados. <br><br>
+
+• Página de Top Filmes; <br>
+• Detalhes de cada filmes; <br>
+• Pesquisar filmes no campo de busca; <br>
+• Responsividade.
+
+<br>
+Tecnologias usadas no projetos:<br>
+• React<br>
+• SASS
+`,
     videoSrc:
-      "https://user-images.githubusercontent.com/104373308/221963518-22130a40-91ff-4998-b87a-a5178747807c.mp4",
-    repository: "https://github.com/claytonfortunato/MemoryGame",
-    site: "https://eloquent-rugelach-091b24.netlify.app/",
+      "https://user-images.githubusercontent.com/104373308/216789465-86a3df9a-b488-40be-b4ca-e947c800ff08.mp4",
+    repository: "https://github.com/claytonfortunato/Movies",
+    site: "https://profound-maamoul-0e88e6.netlify.app/",
+  },
+
+  {
+    title: "Todo List",
+    date: "6 de Fevereiro de 2023",
+    description: `Essa aplicação web tem o intuito de adicionar umas lista de tarefas completas e incompletas e filtrando a busca. <br><br>
+  
+  • Adicionar tarefas; <br>
+  • Filtrar tarefas; <br>
+  • Deletar tarefas; <br>
+  
+  <br>
+  Tecnologias usadas no projetos:<br>
+  • React<br>
+  • SASS<br>
+  • Material-UI
+  `,
+    videoSrc:
+      "https://user-images.githubusercontent.com/104373308/219694885-2e7161e8-ddd1-4f91-b370-a34a9c2b56f4.mp4",
+    repository: "https://github.com/claytonfortunato/Todo-List",
+    site: "https://unrivaled-malabi-d93acb.netlify.app/",
   },
 
   {
     title: "Calculadora",
     date: "17 de Fevereiro de 2023",
     description: `Essa aplicação web tem o intuito de demonstrar uma simples calculadora. <br><br>
-      
-      • Adicionar elemento; <br>
-      • Calcular elemento; <br>
-      
-      <br>
-      Tecnologias usadas no projetos:<br>
-      • React<br>
-      • SASS
-      `,
+    
+    • Adicionar elemento; <br>
+    • Calcular elemento; <br>
+    
+    <br>
+    Tecnologias usadas no projetos:<br>
+    • React<br>
+    • SASS
+    `,
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/219822585-44b4c6e5-a9c0-43aa-8b52-5414cc789fc7.mp4",
     repository: "https://github.com/claytonfortunato/Calculator-React",
@@ -110,20 +130,20 @@ const dataProjects = [
     title: "Forecast Weather",
     date: "18 de Fevereiro de 2023",
     description: `Essa aplicação web tem o intuito de buscar e mostrar a temperatura de cada cidade buscada. <br><br>
-    
-    • Busca de cidade; <br>
-    • Mostrando clima de cada cidade; <br>
-    • Horário de inicio e término do por-do-sol; <br>
-    • Velocidade e direção do vento; <br>
-    • Radar meteorológico e mapas de chuva; <br>
-    • Humidade do ar; <br>
-    
-    <br>
-    Tecnologias usadas no projetos:<br>
-    • React<br>
-    • Typescript<br>
-    • Styled-Components
-    `,
+  
+  • Busca de cidade; <br>
+  • Mostrando clima de cada cidade; <br>
+  • Horário de inicio e término do por-do-sol; <br>
+  • Velocidade e direção do vento; <br>
+  • Radar meteorológico e mapas de chuva; <br>
+  • Humidade do ar; <br>
+  
+  <br>
+  Tecnologias usadas no projetos:<br>
+  • React<br>
+  • Typescript<br>
+  • Styled-Components
+  `,
     videoSrc:
       "https://user-images.githubusercontent.com/104373308/220668453-df083966-c84d-42a5-b8cd-96a634c5c881.mp4",
     repository: "https://github.com/claytonfortunato/weather-app",
@@ -131,24 +151,25 @@ const dataProjects = [
   },
 
   {
-    title: "Todo List",
-    date: "6 de Fevereiro de 2023",
-    description: `Essa aplicação web tem o intuito de adicionar umas lista de tarefas completas e incompletas e filtrando a busca. <br><br>
-      
-      • Adicionar tarefas; <br>
-      • Filtrar tarefas; <br>
-      • Deletar tarefas; <br>
-      
-      <br>
-      Tecnologias usadas no projetos:<br>
-      • React<br>
-      • SASS<br>
-      • Material-UI
-      `,
+    title: "Jogo da Memória",
+    date: "22 de Fevereiro de 2023",
+    description: `Um jogo da memória, onde os usuários devem lembrar as posições das cartas e abrir duas imagens exatas sequencialmente para marcar pontos. Uma vez que todos os cartões são abertos, o usuário é vitorioso. <br><br>
+  
+  • Rastrear os movimentos; <br>
+  • Pontos de acertos; <br>
+  • Função caso ganhe; <br>
+  • Resetar funcionalidade; <br>
+  
+  <br>
+  Tecnologias usadas no projetos:<br>
+  • React<br>
+  • Typescript<br>
+  • Styled-Components
+  `,
     videoSrc:
-      "https://user-images.githubusercontent.com/104373308/219694885-2e7161e8-ddd1-4f91-b370-a34a9c2b56f4.mp4",
-    repository: "https://github.com/claytonfortunato/Todo-List",
-    site: "https://unrivaled-malabi-d93acb.netlify.app/",
+      "https://user-images.githubusercontent.com/104373308/221963518-22130a40-91ff-4998-b87a-a5178747807c.mp4",
+    repository: "https://github.com/claytonfortunato/MemoryGame",
+    site: "https://eloquent-rugelach-091b24.netlify.app/",
   },
 
   {
@@ -159,27 +180,6 @@ const dataProjects = [
     videoSrc: "",
     repository: "",
     site: "",
-  },
-
-  {
-    title: "Movies",
-    date: "2 de Fevereiro de 2023",
-    description: `Essa aplicação web tem o intuito de buscar e mostrar dethales de cada filme selecionado, e com a page home com os filmes mais votados. <br><br>
-  
-  • Página de Top Filmes; <br>
-  • Detalhes de cada filmes; <br>
-  • Pesquisar filmes no campo de busca; <br>
-  • Responsividade.
-  
-  <br>
-  Tecnologias usadas no projetos:<br>
-  • React<br>
-  • SASS
-  `,
-    videoSrc:
-      "https://user-images.githubusercontent.com/104373308/216789465-86a3df9a-b488-40be-b4ca-e947c800ff08.mp4",
-    repository: "https://github.com/claytonfortunato/Movies",
-    site: "https://profound-maamoul-0e88e6.netlify.app/",
   },
   {
     title: "Receitas Mobile",
@@ -198,7 +198,7 @@ const dataProjects = [
   • Axios<br>
   `,
     videoSrc:
-      "https://user-images.githubusercontent.com/104373308/235367094-807b67ed-d5b9-4ecc-b323-332712ee2d03.mp4",
+      "https://user-images.githubusercontent.com/104373308/235367094-807b67ed-d5b9-4ecc-b323-332712ee2d03.mp4?autoplay=1",
     repository: "https://github.com/claytonfortunato/Receitas-Mobile",
     site: "",
   },
@@ -216,7 +216,7 @@ const openModal = () => {
   const modalLinkProject = modal.querySelector(".links a.link-project");
   const modalLinkRepository = modal.querySelector(".links a.link-repository");
 
-  const iframe = modal.querySelector(".video video");
+  const iframe = modal.querySelector(".video iframe");
 
   box.forEach((item, index) => {
     const addData = () => {
