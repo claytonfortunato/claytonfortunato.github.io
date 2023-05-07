@@ -198,7 +198,7 @@ Tecnologias usadas no projetos:<br>
   • Axios<br>
   `,
     videoSrc:
-      "https://user-images.githubusercontent.com/104373308/235367094-807b67ed-d5b9-4ecc-b323-332712ee2d03.mp4?autoplay=1",
+      "https://user-images.githubusercontent.com/104373308/235367094-807b67ed-d5b9-4ecc-b323-332712ee2d03.mp4?",
     repository: "https://github.com/claytonfortunato/Receitas-Mobile",
     site: "",
   },
