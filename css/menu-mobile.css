@@ -2,6 +2,7 @@
   display: none;
   cursor: pointer;
   font-size: 25px;
+  color: #88abdb;
 }
 
 @media only screen and (max-width: 920px) {

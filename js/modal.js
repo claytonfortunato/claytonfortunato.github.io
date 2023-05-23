@@ -1,25 +1,23 @@
 const dataProjects = [
   {
-    title: "Pokedex",
-    date: "10 de Janeiro de 2023",
-    description: `Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o pokemon selecionado <br><br>
+    title: "Marvel",
+    date: "12 de Maio de 2023",
+    description: `Essa aplicação web tem o intuito de listar as categorias em cada página e com campo de busca.<br><br>
       
-      • Listagem de pokemons; <br>
-      • Busca de pokemon pelo nome; <br>
-      • Detalhes do pokemon selecionado; <br>
-      • Carregamento por lista; <br>
+      • Páginas de cada categorias <br>
+      • Detalhes do card selecionado <br>
+      • Campo de pesquisa <br>
       • Responsividade.<br>
       
       <br>
       Tecnologias usadas no projetos:<br>
       • React<br>
-      • Context-Api<br>
-      • SASS
+      • Typescript<br>
+      • Styled-Components<br>
       `,
-    videoSrc:
-      "https://user-images.githubusercontent.com/104373308/214087631-2111ff67-4177-4ee5-abe5-c907243f6c96.mp4",
-    repository: "https://github.com/claytonfortunato/Pok-dex",
-    site: "https://dev-pokedex-react.netlify.app/",
+    videoSrc: "",
+    repository: "https://github.com/claytonfortunato/MarvelHeroes",
+    site: "",
   },
 
   {
@@ -63,6 +61,29 @@ const dataProjects = [
       "https://user-images.githubusercontent.com/104373308/233812162-0fa4d870-113f-4f6d-8934-1c08caf80663.mp4",
     repository: "https://github.com/claytonfortunato/BoraCodar-Challenger",
     site: "https://bora-codar-challenger.vercel.app/",
+  },
+
+  {
+    title: "Pokedex",
+    date: "10 de Janeiro de 2023",
+    description: `Esta aplicação web tem o intuito de listar e detalhar um pouco mais sobre o pokemon selecionado <br><br>
+      
+      • Listagem de pokemons; <br>
+      • Busca de pokemon pelo nome; <br>
+      • Detalhes do pokemon selecionado; <br>
+      • Carregamento por lista; <br>
+      • Responsividade.<br>
+      
+      <br>
+      Tecnologias usadas no projetos:<br>
+      • React<br>
+      • Context-Api<br>
+      • SASS
+      `,
+    videoSrc:
+      "https://user-images.githubusercontent.com/104373308/214087631-2111ff67-4177-4ee5-abe5-c907243f6c96.mp4",
+    repository: "https://github.com/claytonfortunato/Pok-dex",
+    site: "https://dev-pokedex-react.netlify.app/",
   },
 
   {
