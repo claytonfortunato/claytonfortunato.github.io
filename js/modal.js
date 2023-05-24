@@ -8,16 +8,20 @@ const dataProjects = [
       • Detalhes do card selecionado <br>
       • Campo de pesquisa <br>
       • Responsividade.<br>
+      • Menu mobile<br>
       
       <br>
       Tecnologias usadas no projetos:<br>
       • React<br>
       • Typescript<br>
       • Styled-Components<br>
+      • Axios<br>
+
       `,
-    videoSrc: "",
+    videoSrc:
+      "https://github.com/claytonfortunato/claytonfortunato.github.io/assets/104373308/2bb2de4f-0174-4609-b2fe-577d30ddd8ad",
     repository: "https://github.com/claytonfortunato/MarvelHeroes",
-    site: "",
+    site: "https://delicate-druid-8b2d69.netlify.app/",
   },
 
   {
