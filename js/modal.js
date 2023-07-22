@@ -46,6 +46,30 @@ const dataProjects = [
   },
 
   {
+    title: "TODO List - Full Stack",
+    date: "19 de Julho de 2023",
+    description: `Foi criado um TODO List com página inical de login e cadastro de usuário , criado api com NodeJS/ExpressJS e front end com React/Styled-components.<br></br>
+    
+    • Todos projetos; <br>
+    
+    
+    <br>
+    Tecnologias usadas no projetos:<br>
+    • React<br>
+    • Typescript<br>
+    • NodeJS<br>
+    • ExpressJS<br>
+    • MongoDB<br>
+    • Styled-components
+    
+    `,
+
+    videoSrc: "#",
+    repository: "https://github.com/claytonfortunato/FullStack-todoList",
+    site: "#",
+  },
+
+  {
     title: "#Bora Codar - Challendes",
     date: "18 de Março de 2023",
     description: `#Bora Codar é um projeto semanal da Rocketseat com intuito de aprendizado na linguagem, nesse projeto venho mostrar todos meus projetos feitos durante a semana.<br></br>
