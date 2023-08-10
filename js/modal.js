@@ -60,11 +60,13 @@ const dataProjects = [
     • NodeJS<br>
     • ExpressJS<br>
     • MongoDB<br>
-    • Styled-components
+    • Styled-components<br>
+    • Hook Form
     
     `,
 
-    videoSrc: "#",
+    videoSrc:
+      "https://github.com/claytonfortunato/FullStack-todoList/assets/104373308/b4c6a9f5-7d16-4198-8d37-d6cb94245e91",
     repository: "https://github.com/claytonfortunato/FullStack-todoList",
     site: "#",
   },
